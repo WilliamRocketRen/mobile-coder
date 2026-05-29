@@ -1,0 +1,43 @@
+.DS_Store
+node_modules
+.worktrees
+.sst
+.env
+.idea
+.vscode
+.codex
+*~
+playground
+tmp
+dist
+ts-dist
+.turbo
+**/.serena
+.serena/
+/result
+refs
+Session.vim
+joinai-code.json
+a.out
+target
+.scripts
+.direnv/
+
+# Local dev files
+joinai-code-dev
+logs/
+*.bun-build
+
+# claude settings
+.claude/
+
+# Local docs and scripts (not for upstream)
+docs/
+script/test-jiutian.sh
+script/test-joinai.sh
+
+# 灵畿lc不上传
+lc/
+
+# docker
+docker
